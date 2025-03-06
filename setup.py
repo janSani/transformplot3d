@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from configparser import ConfigParser
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'Helper for plotting 3d vectors and coordinate systems.'
 LONG_DESCRIPTION = open("README.md", encoding="utf-8").read()
 setup(
