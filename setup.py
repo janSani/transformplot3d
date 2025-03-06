@@ -1,7 +1,6 @@
 from setuptools import setup, find_packages
-from configparser import ConfigParser
 
-VERSION = '0.0.3' 
+VERSION = '0.0.4' 
 DESCRIPTION = 'Helper for plotting 3d vectors and coordinate systems.'
 LONG_DESCRIPTION = open("README.md", encoding="utf-8").read()
 setup(
@@ -19,8 +18,9 @@ setup(
     classifiers= [
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
+        "Framework :: Matplotlib",
         "Programming Language :: Python :: 3",
-        "Operating System :: MacOS :: MacOS X",
+        "Programming Language :: Python :: 3.12",
         "Operating System :: Microsoft :: Windows",
     ],
 )
