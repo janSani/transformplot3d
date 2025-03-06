@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
+from configparser import ConfigParser
 
-VERSION = '0.0.1' 
+VERSION = '0.0.2' 
 DESCRIPTION = 'Helper for plotting 3d vectors and coordinate systems.'
-LONG_DESCRIPTION = 'Helper for plotting 3d vectors and coordinate systems using `matplotlib` and matrices from `transformations`.'
-
+LONG_DESCRIPTION = open("README.md", encoding="utf-8").read()
 setup(
     name="trasnformplot3d", 
     version=VERSION,
