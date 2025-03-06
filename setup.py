@@ -4,7 +4,7 @@ VERSION = '0.0.4'
 DESCRIPTION = 'Helper for plotting 3d vectors and coordinate systems.'
 LONG_DESCRIPTION = open("README.md", encoding="utf-8").read()
 setup(
-    name="trasnformplot3d", 
+    name="transformplot3d", 
     version=VERSION,
     author="jan Sani",
     author_email="<santipt50@gmail.com>",
